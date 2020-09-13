@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\model">
+      <UniqueIdentifier>{b42fc139-9489-4474-aee4-77c741d940e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\simulator">
+      <UniqueIdentifier>{3a5694f3-2471-42fa-9c59-07c01f4ba6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\logger">
+      <UniqueIdentifier>{b83436be-fdaa-4df9-9ad7-9b0425df5706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="logger.cpp">
+      <Filter>source\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="checkout_counter.cpp">
+      <Filter>source\model</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="agenda.cpp">
+      <Filter>source\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="time_event.cpp">
+      <Filter>source\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="simulator.cpp">
+      <Filter>source\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="customer.cpp">
+      <Filter>source\model</Filter>
+    </ClCompile>
+    <ClCompile Include="shopping_card.cpp">
+      <Filter>source\model</Filter>
+    </ClCompile>
+    <ClCompile Include="supermarket.cpp">
+      <Filter>source\model</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logger.h">
+      <Filter>source\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="checkout_counter.h">
+      <Filter>source\model</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>source\model</Filter>
+    </ClInclude>
+    <ClInclude Include="agenda.h">
+      <Filter>source\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="simulator.h">
+      <Filter>source\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="time_event.h">
+      <Filter>source\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.h">
+      <Filter>source\model</Filter>
+    </ClInclude>
+    <ClInclude Include="shopping_card.h">
+      <Filter>source\model</Filter>
+    </ClInclude>
+    <ClInclude Include="supermarket.h">
+      <Filter>source\model</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
